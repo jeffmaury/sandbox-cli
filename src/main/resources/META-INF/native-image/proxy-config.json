@@ -1,0 +1,8 @@
+[
+  {
+    "interfaces":["me.jeffmaury.sandboxcli.SandboxAPI"]}
+  ,
+  {
+    "interfaces":["org.apache.http.client.methods.CloseableHttpResponse"]}
+  
+]

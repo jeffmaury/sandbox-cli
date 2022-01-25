@@ -1,0 +1,31 @@
+{
+  "resources":{
+  "includes":[
+    {
+      "pattern":"\\QMETA-INF/services/org.keycloak.adapters.authentication.ClientCredentialsProvider\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.xnio.XnioProvider\\E"
+    }, 
+    {
+      "pattern":"\\Qio/undertow/version.properties\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/jboss/threads/Version.properties\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/xnio/Version.properties\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/xnio/nio/Version.properties\\E"
+    }
+  ]},
+  "bundles":[
+    {
+      "name":"com.sun.javafx.tk.quantum.QuantumMessagesBundle"
+    }, 
+    {
+      "name":"sun.awt.resources.awt"
+    }
+  ]
+}
