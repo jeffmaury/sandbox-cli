@@ -22,5 +22,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Gluon Build and Package
-        run: mvn -Pdesktop gluonfx:build gluonfx:package
+        run: mvn -B -ntp -Pdesktop gluonfx:build gluonfx:package
 
